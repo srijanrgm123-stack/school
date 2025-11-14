@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ebook Courses – Learn & Earn</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #1a1a1a, #333);
+            color: #fff;
+        }
+        header {
+            text-align: center;
+            padding: 35px 10px;
+            font-size: 32px;
+            font-weight: 700;
+            background: #111;
+            letter-spacing: 1px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.4);
+        }
+        .container {
+            width: 92%;
+            max-width: 1100px;
+            margin: 40px auto;
+        }
+        .course-box {
+            background: rgba(255,255,255,0.08);
+            padding: 25px;
+            border-radius: 20px;
+            margin-bottom: 25px;
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255,255,255,0.15);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .course-box:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+        }
+        .title {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #00d4ff;
+        }
+        .description {
+            font-size: 16px;
+            margin-bottom: 12px;
+            opacity: 0.9;
+        }
+        .price {
+            font-size: 20px;
+            font-weight: 600;
+            color: #00ff9d;
+            margin-bottom: 15px;
+        }
+        button {
+            padding: 12px 22px;
+            background: linear-gradient(45deg,#00d4ff,#008cff);
+            border: none;
+            color: white;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: linear-gradient(45deg,#00a2ff,#005fb3);
+            transform: scale(1.05);
+        }
+
+        .footer-box {
+            background: rgba(255,255,255,0.1);
+            padding: 25px;
+            border-radius: 15px;
+            margin-top: 40px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        .footer-box h3 {
+            font-size: 22px;
+            margin-bottom: 10px;
+            color: #00ffea;
+        }
+        .contact {
+            margin-top: 10px;
+            font-size: 18px;
+            line-height: 1.7;
+        }
+    </style>
+</head>
+<body>
+
+<header>Ebook & Digital Courses Store</header>
+
+<div class="container">
+
+    <div class="course-box">
+        <div class="title">1. How to Earn Money Online</div>
+        <div class="description">Learn multiple online earning methods suitable for students and beginners.</div>
+        <div class="price">Price: Rs. 399</div>
+        <button onclick="contactMe()">Buy Now</button>
+    </div>
+
+    <div class="course-box">
+        <div class="title">2. SEO Full Beginner Guide</div>
+        <div class="description">Master Search Engine Optimization for websites, YouTube & business ranking.</div>
+        <div class="price">Price: Rs. 499</div>
+        <button onclick="contactMe()">Buy Now</button>
+    </div>
+
+    <div class="course-box">
+        <div class="title">3. App & Website Information Guide</div>
+        <div class="description">Learn the full process of app development, web creation & digital tools.</div>
+        <div class="price">Price: Rs. 999</div>
+        <button onclick="contactMe()">Buy Now</button>
+    </div>
+
+    <div class="course-box">
+        <div class="title">4. Affiliate Marketing Mastery</div>
+        <div class="description">Learn step-by-step affiliate marketing & earn from global platforms.</div>
+        <div class="price">Price: Rs. 199</div>
+        <button onclick="contactMe()">Buy Now</button>
+    </div>
+
+    <div class="footer-box">
+        <h3>Important Description</h3>
+        <p>We do not guarantee earning. But we guarantee 100% trusted, verified and valuable information in every ebook and course.</p>
+
+        <div class="contact">
+            <strong>To Buy Contact:</strong><br>
+            Email: srijanrgm123@gmail.com<br>
+            WhatsApp: 9805442333<br>
+            Payment: eSewa / Khalti / All Nepali Wallets & Banking<br>
+        </div>
+    </div>
+
+</div>
+
+<script>
+function contactMe() {
+    alert("To buy this course, please contact via WhatsApp 9805442333 or Email: srijanrgm123@gmail.com");
+}
+</script>
+
+</body>
+</html>
